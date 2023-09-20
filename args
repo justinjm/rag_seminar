@@ -1,0 +1,13 @@
+export PROJECT_ID=$(gcloud config get-value project)
+export LOCATION="us-central1"
+export CLUSTER="rag-seminar-demo-cluster"
+export CONFIG="rag-seminar-config"
+export WORKSTATION="rag-seminar-workstation"
+
+echo "==================== args ====================================================================="
+echo "PROJECT_ID:            " $PROJECT_ID
+echo "LOCATION:              " $LOCATION
+echo "CLUSTER:               " $CLUSTER
+echo "CONFIG:                " $CONFIG
+echo "WORKSTATION:           " $WORKSTATION
+echo "================================================================================================="
